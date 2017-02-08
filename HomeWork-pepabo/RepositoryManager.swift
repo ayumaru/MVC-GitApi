@@ -49,7 +49,6 @@ extension RepositoryManager {
                 self.item.append(Repository(json: item.1))
             })
             
-            // 更新
             callback(true)
         }
     }
