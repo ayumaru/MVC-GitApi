@@ -55,6 +55,6 @@ extension RepositoryManager {
     
     func shouldDownload(indexPath: IndexPath) -> Bool {
         // 最後のセル
-        return indexPath.row == repositoryCount - 1
+        return indexPath.row == repositoryCount
     }
 }
